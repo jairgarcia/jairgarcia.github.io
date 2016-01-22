@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="single-project" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="single-project__container u-container u-row">
+
+		<div class="single-project__main col-xs-12 col-md-8" itemprop="articleBody">
+			{{ content }}
+		</div>
+
+		<aside class="single-project__sidebar col-xs-12 col-md-4">
+			<h3 class="single-project__title" itemprop="name headline">{{ page.title }}</h3>
+			<h4 class="single-project__category black-light">{{ page.categories }}</h4>
+			<h5 class="single-project__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h5>
+			<h4 class="single-project__subtitle">Contribución</h4>
+			<p class="single-project__content black-dark">{{ page.contribution }}</p>
+			<h4 class="single-project__subtitle">Enlaces</h4>
+			<p class="single-project__content black-dark"><a href="{{ page.web }}" target="_blank">{{ page.web }}</a></p>
+			<h4 class="single-project__subtitle">Estado</h4>
+			<p class="single-project__content black-dark">{{ page.state }}</p>
+		</aside>
+
+	</div>
+</article>

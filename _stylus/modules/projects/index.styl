@@ -18,3 +18,47 @@
 
 		&__title
 			margin-bottom 6rem
+
+
+
+
+	.single-project
+		padding 100px 0
+		min-height 100vh
+		&__category
+			margin-bottom 0
+
+		&__content
+			margin-top 1rem
+
+		&__image
+			margin-bottom 2rem
+			img
+				opacity .8
+				transitionCubic()
+				&:hover
+					opacity 1
+
+		&__main
+			margin-bottom 3rem
+
+		&__meta
+			font-weight bolder
+
+		&__subtitle
+			border-bottom 1px solid black
+			display inline-block
+			letter-spacing -1px
+			margin-top 3rem
+			text-transform uppercase
+
+		&__title
+			letter-spacing -2px
+			text-transform uppercase
+
+
+	@media only screen and ( min-width 62em)
+		.single-project
+			&__main
+				padding-right 4rem
+				margin-bottom 0
