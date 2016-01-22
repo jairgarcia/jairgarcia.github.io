@@ -1,0 +1,26 @@
+
+	@keyframes wave {
+		0% {
+			box-shadow 0 0 0 1px $black-dark
+		}
+	}
+
+	.btn
+		border 1px solid black
+		border-radius 6px
+		color blue
+		display inline-block
+		line-height 1
+		padding 1em
+		text-align center
+		text-transform uppercase
+		transition all .2s cubic-bezier( .4, 0, .2, 1 )
+
+		&:hover
+		&:focus
+			background-color blue
+			color white
+
+		&.disabled
+			background black
+			color gray

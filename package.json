@@ -1,0 +1,28 @@
+{
+  "name": "spey12",
+  "version": "1.0.0",
+  "description": "Gestiones Inmobiliarias",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.js"
+  },
+  "browserify-shim": {
+    "jquery": "$"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.0",
+    "gulp-stylus": "^2.2.0",
+    "nib": "^1.1.0"
+  },
+  "private": true
+}

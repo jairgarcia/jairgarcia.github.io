@@ -1,0 +1,40 @@
+
+	body
+		&.off-canvas-open
+			overflow hidden
+
+
+
+	// Header
+	.header
+		&__icon-menu
+			absolute left 1.5rem top 1.3rem
+			i
+				animation wave 1.5s infinite
+				background-color transparent
+				border-radius 50%
+				color black
+				font-size 30px
+				transitionCubic()
+				&:hover
+					color $black-light
+
+		&__logo
+			i
+				font-size 60px
+
+
+
+
+	.mm-opening
+		.header
+			&__icon-menu
+				i
+					color $black-light
+
+	@media only screen and ( min-width 62em)
+
+		// Header
+		.header
+			&__icon-menu
+				relative left 0 top 0
