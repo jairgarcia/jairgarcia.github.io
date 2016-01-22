@@ -1,18 +1,22 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Proyectos
+permalink: /proyectos/
 ---
 
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="projects">
+  <div class="projects__container u-container-sm">
+    <h1 class="heading__level-1 projects__title center-xs">{{ page.title }}</h1>
+    <ul class="projects__list">
+      {% for post in site.posts %}
+        <li class="projects__list-item">
+          <span class="projects__list__date">{{ post.date | date: "%Y" }}</span>
+          <h3 class="projects__list__title">
+            <a class="projects__list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <h4 class="projects__list__category black-light">{{ post.categories }}</h4>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

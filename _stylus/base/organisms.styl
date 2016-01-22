@@ -5,8 +5,26 @@
 
 
 
+
+	// Footer
+	.footer
+		fixed bottom 0 left 0 right 0
+		&__email
+			margin-bottom .5rem
+
+		&__github
+			margin-right 1rem
+
+		&__list-items
+			i
+				font-size 30px
+
+
+
+
 	// Header
 	.header
+		absolute left 0 right 0 top 0
 		&__icon-menu
 			absolute left 1.5rem top 1.3rem
 			i
@@ -21,7 +39,16 @@
 
 		&__logo
 			i
-				font-size 60px
+				font-size 40px
+
+		&__nav__list-link
+			padding-bottom .5rem
+			transitionCubic()
+			&:first-child
+				margin-right 1rem
+
+			&:hover
+				border-bottom 1px solid black
 
 
 
