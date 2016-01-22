@@ -14,6 +14,12 @@
 				compress: true
 			}))
 			.pipe( gulp.dest( '_site/css' ) );
+		gulp.src( '_stylus/**.*' )
+			.pipe( stylus({
+				use: [ nib() ],
+				compress: true
+			}))
+			.pipe( gulp.dest( './css' ) );
 	});
 
 	gulp.task( 'watch:styles', function() {
