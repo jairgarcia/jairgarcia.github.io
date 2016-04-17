@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "Grupo Zelt"
+description: Sitio web de Grupo Zelt por Jair Garcia
 date:   2015-06-03
 categories: Web
 contribution: Desarrollo

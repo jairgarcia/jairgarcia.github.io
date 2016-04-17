@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "Spinning Center GYM"
+description: Renovación web de Spinning Center GYM por Jair Garcia
 date:   2015-1-9
 categories: Web
 contribution: Desarrollo

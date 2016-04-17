@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "Spina Colombia"
+description: Sitio web de Spina Colombia por Jair Garcia
 date:   2015-11-25
 categories: Web
 contribution: Diseño y Desarrollo

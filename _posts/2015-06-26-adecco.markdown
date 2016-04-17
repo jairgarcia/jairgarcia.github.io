@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "Adecco"
+description: Sitio web de Adecco por Jair Garcia
 date:   2015-6-26
 categories: Web
 contribution: Desarrollo

@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "CanAmor"
+description: E-commerce de CanAmor por Jair Garcia
 date:   2015-3-24
 categories: E-commerce
 contribution: Desarrollo

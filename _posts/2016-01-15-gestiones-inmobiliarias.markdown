@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "Gestiones Inmobiliarias"
+description: Sitio web de Gestiones Inmobiliarias por Jair Garcia
 date: 	2016-1-15
 categories: Web
 contribution: Diseño y Desarrollo

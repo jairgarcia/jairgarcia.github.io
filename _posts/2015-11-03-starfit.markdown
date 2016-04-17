@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "Starfit"
+description: E-commerce de Starfit por Jair Garcia
 date:   2015-11-3
 categories: E-commerce
 contribution: Desarrollo

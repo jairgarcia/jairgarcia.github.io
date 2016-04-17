@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "UrbanMask"
+description: E-commerce de UrbanMask por Jair Garcia
 date:   2015-3-15
 categories: E-commerce
 contribution: Desarrollo

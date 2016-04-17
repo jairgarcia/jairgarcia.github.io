@@ -1,6 +1,7 @@
 ---
 layout: single-project
 title:  "Avantel"
+description: App web de Avantel por Jair Garcia
 date:   2015-6-26
 categories: Web-App
 contribution: Maquetación ( La aplicación no ha sido lanzada )
